@@ -1,0 +1,13 @@
+.portfolio{
+    padding-bottom: 94px;
+}
+
+.portfolio::before{
+    position: absolute;
+    display: block;
+    content: "";
+    
+    left: 0;
+    width: 100%;
+    border: 1px solid #ECECEC
+}

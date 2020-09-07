@@ -1,0 +1,31 @@
+.client-list .client-item{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    margin-right: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border 250ms  cubic-bezier(0.4, 0, 0.2, 1);;
+    outline: none;
+    
+    &:hover,
+    &:focus{
+        border: 1px solid $accent-color;
+    }
+}
+
+.client-icon{
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .client-item:hover &,
+    .client-item:focus &{
+         fill: $accent-color;
+    }
+}
+
+.client-list .item:last-child{
+    margin-right: 0px;
+}

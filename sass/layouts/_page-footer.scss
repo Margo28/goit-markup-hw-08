@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+}
+.padding-logo{
+    display: inline-block;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.address{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $title-color;
+   
+}
+
+.address .item{
+    margin-bottom: 9px;
+}
+
+.address .item:last-child{
+    margin-bottom: 0px;
+}
+
+.contacts{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $footer-contacts-color;
+}
+
+.page-footer{ 
+    padding-bottom: 60px;
+    background-color: #2F303A;
+}
