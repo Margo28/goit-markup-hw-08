@@ -1,19 +1,30 @@
 .client-list .client-item{
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 170px;
     height: 90px;
     margin-right: 30px;
+    margin-bottom: 30px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     transition: border 250ms  cubic-bezier(0.4, 0, 0.2, 1);;
     outline: none;
+
+    &:nth-child(2n) {
+        margin-right: 0px;
+    }
+    
+    &:nth-last-child(-n + 2){
+        margin-bottom: 0px;
+    }
     
     &:hover,
     &:focus{
         border: 1px solid $accent-color;
     }
+
+    
 }
 
 .client-icon{
@@ -24,8 +35,9 @@
     .client-item:focus &{
          fill: $accent-color;
     }
+   
 }
 
-.client-list .item:last-child{
-    margin-right: 0px;
-}
+// .client-list .item:last-child{
+//     margin-right: 0px;
+// }

@@ -1,10 +1,11 @@
-.footer{
-    display: flex;
-}
-.padding-logo{
-    display: inline-block;
-    padding-top: 60px;
-    margin-bottom: 20px;
+// .footer{
+//     display: flex;
+// }
+
+
+.footer-item{
+    display: block;
+    text-align: center;
 }
 
 .address{
@@ -12,6 +13,7 @@
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    text-align: center;
     color: $title-color;
    
 }
@@ -34,4 +36,5 @@
 .page-footer{ 
     padding-bottom: 60px;
     background-color: #2F303A;
+    
 }
