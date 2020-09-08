@@ -1,11 +1,26 @@
 // .footer{
-//     display: flex;
+//      @media screen and(min-width: 768px) {
+//       display: flex;
+
+//         text-align: start;
+//     }
+        
+      
 // }
+
+.footer-address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
 
 
 .footer-item{
     display: block;
     text-align: center;
+
+    
 }
 
 .address{
@@ -16,10 +31,14 @@
     text-align: center;
     color: $title-color;
    
+   
 }
+
+
 
 .address .item{
     margin-bottom: 9px;
+    
 }
 
 .address .item:last-child{
