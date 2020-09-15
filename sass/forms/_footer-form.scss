@@ -1,6 +1,41 @@
-// .sub-form{
-//     display: flex;
-// }
+// 
+
+
+.join-social{
+     // margin-top: 0px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    // padding-top: 72px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $title-color;
+
+}
+
+.join{
+    
+    // margin-top: 0px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    // padding-top: 72px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $title-color;
+
+
+    @media screen and(min-width: 768px) {
+        width: 500px;
+        
+    }
+}
 
 .subscribe{
     display:block;

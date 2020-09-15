@@ -10,20 +10,15 @@
 }
 
 .client-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+     @media screen  and (max-width: 1199px){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
 
-    // @media screen  and (max-width: 767px){
-    //     justify-content: center;
-    // }
-    
-
-    // @media screen  and (min-width: 768px){
-    //     justify-content: center;
-    // }
-
-    
+     @media screen  and (min-width: 1200px){
+        display: flex;
+     }
 
 }
 
